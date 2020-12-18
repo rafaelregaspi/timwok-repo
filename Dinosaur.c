@@ -4,8 +4,8 @@
 main (void)
 {
 	char dinoName;
-	int yearsAgo, months, days, seconds = 0;	
-	
+	int yearsAgo, months, seconds = 0;	
+	float days = 0;
 	printf("Enter dinosaur's name: ");
 	scanf("%s", &dinoName);
 	
@@ -18,7 +18,7 @@ main (void)
 	
 	printf("\n");
 	printf("Months: %d \n", months); 
-	printf("Days: %d \n", days); 
+	printf("Days: %f \n", days); 
 	printf("Seconds: %2.2e", seconds);
 	
 	getch();
